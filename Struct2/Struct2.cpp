@@ -28,4 +28,7 @@ int main()				// fungsi main, titik masuk utama dari program yang akan dieksekus
 	cin >> mhs.alamat.desa;
 	cout << "\t Nama Kota : ";
 	cin >> mhs.alamat.kota;
+
+	cout << "Umur Mahasiswa : ";
+	cin >> mhs.umur;
 }
