@@ -7,9 +7,12 @@ struct DetailAlamat
 	string kota;
 };
 
-struct Mahasiswa
+struct Mahasiswa	//deklarasi struktur mahasiswa
 {
-	
+	string nim;
+	string nama;
+	DetailAlamat alamat;	//struktur lain yang menyimpan informasi terkait alamat, yaitu desa dan kota
+	string umur;
 };
 
 int main()
