@@ -17,5 +17,9 @@ struct Mahasiswa	//deklarasi struktur mahasiswa
 
 int main()				// fungsi main, titik masuk utama dari program yang akan dieksekusi terlebih dahulu saat program dijalankan
 {
-	
+	Mahasiswa mhs;
+	cout << "Nomor Mahasiswa : ";
+	cin >> mhs.nim;
+	cout << "Nama Mahasiswa : ";
+	cin >> mhs.nama;
 }
