@@ -15,7 +15,7 @@ struct Mahasiswa	//deklarasi struktur mahasiswa
 	string umur;
 };
 
-int main()
+int main()				// fungsi main, titik masuk utama dari program yang akan dieksekusi terlebih dahulu saat program dijalankan
 {
 	
 }
