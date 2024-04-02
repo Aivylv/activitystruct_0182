@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-struct Mahasiswa
+struct Mahasiswa	//Membuat struktur mahasiswa untuk menyimpan data data dari seeorang mahasiswa
 {
 	string nim;
 	string nama;
@@ -11,5 +11,5 @@ struct Mahasiswa
 
 int main()
 {
-	
+	Mahasiswa mhs;					//membuat objek/variabel untuk mewakili struktur mahasiswa
 }
